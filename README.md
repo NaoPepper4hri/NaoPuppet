@@ -1,5 +1,5 @@
 # NaoPuppet
-Using Kinects V1 and copying Human hand movement to Nao. This works by translating the angle between lower-arm/upper-arm/human-torso to Nao Elbow and Shoulder roll/pitch/yaw interpolations. 
+Using Kinects V1 and copying Human arm movements on Nao. This works by translating the angle between lower-arm/upper-arm/human-torso to Nao Elbow and Shoulder roll/pitch/yaw interpolations. 
 
 This works with both Nao and Pepper. We never used this directly in experiments. This was a starting point for experimentation with Nao/Pepper's capabilities and how to interface it with other devices we had available.
 
@@ -21,5 +21,10 @@ Connect the kinects to the computer. Set the ip to the ip of the robot in naoKin
 
 use: 
 python my_nao_track.py
+
+## Note
+Be careful with sudden arm movements Nao can fall over as we are not taking care of balance here.
+
+Lesson learnt: There is difference between mechanically copying joint angles and copying movement intentions.
 
 
