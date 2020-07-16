@@ -1,7 +1,7 @@
 # NaoPuppet
-Using Kinects V1 and Copying Human hand movement to Nao. This works by translating the angle between lower-arm/upper-arm/human-torso to Nao Elbow and Shoulder roll/pitch/yaw interpolations. 
+Using Kinects V1 and copying Human hand movement to Nao. This works by translating the angle between lower-arm/upper-arm/human-torso to Nao Elbow and Shoulder roll/pitch/yaw interpolations. 
 
-This works with both Nao and Pepper. We never used this directly in experiments. This was a starting point for experimentation with Nao/Pepper's capabilities and how to interface it with other devices.
+This works with both Nao and Pepper. We never used this directly in experiments. This was a starting point for experimentation with Nao/Pepper's capabilities and how to interface it with other devices we had available.
 
 ## Requirements
 Nao or Pepper
