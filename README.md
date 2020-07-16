@@ -16,7 +16,7 @@ pynaoqi
 pykinects
 pygame
 
-# To run
+## To run
 Connect the kinects to the computer. Set the ip to the ip of the robot in naoKinect.py.
 
 use: 
